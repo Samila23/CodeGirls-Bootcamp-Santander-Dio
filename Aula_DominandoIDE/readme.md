@@ -1,0 +1,1 @@
+# Aplicando conceitos importantes, para a boa utilizaçao da IDE.
