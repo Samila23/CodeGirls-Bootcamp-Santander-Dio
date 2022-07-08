@@ -27,7 +27,6 @@ public class Main {
 		float f2 = 50f;
 		System.out.println("(i1 + i2) < (f2 - f1) && true " + ((i1 + 12) < (f2 - f1) && true));
 		System.out.println("(i1 > i2) || (f2 < f1) " + ((i1 > i2) || (f2 < f1)));
-		
 	}
 
 }
