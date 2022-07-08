@@ -23,6 +23,8 @@ public class Calculadora {
 		System.out.println(multiplicacao);
 		double divisao = divisao(a,b);
 		System.out.println(divisao);
+		
+
 	}
 	
 	public static int soma(int a, int b) {
