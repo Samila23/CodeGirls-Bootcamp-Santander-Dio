@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Curso curso1 = new Curso();
 		curso1.setTitulo("Curso Java");
 		curso1.setDescricao("Descricao Curso Java");
