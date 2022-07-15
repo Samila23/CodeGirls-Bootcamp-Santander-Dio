@@ -26,6 +26,34 @@ public class Main {
 		mentoria1.setData(LocalDate.now());
 		
 		System.out.println(mentoria1);
+		
+		
+		Bootcamp bootcamp = new Bootcamp();
+		bootcamp.setNome("Bootcamp Code Girls");
+		bootcamp.setDescricao("Descrição Bootcamp Code Girls");
+		bootcamp.getConteudos().add(curso1);
+		bootcamp.getConteudos().add(curso2);
+		bootcamp.getConteudos().add(mentoria1);
+		
+		
+		Dev devSamila = new Dev();
+		devSamila.setNome("Sâmila");
+		devSamila.inscreverBootcamp(bootcamp);
+		System.out.println("Conteudos Inscritos Sâmila" + devSamila.getConteudosInscritos());
+		devSamila.progredir();
+		devSamila.progredir();
+		System.out.println("Conteudos Inscritos Sâmila" + devSamila.getConteudosInscritos());
+		System.out.println("Conteudos Concluidos Sâmila" + devSamila.getConteudosConcluidos());
+		System.out.println("XP: " + devSamila.calcularTotalXP());
+		
+		Dev devMilena = new Dev();
+		devMilena.setNome("Milena");
+		devMilena.inscreverBootcamp(bootcamp);
+		System.out.println("Conteudos Inscritos Milena" + devMilena.getConteudosInscritos());
+		devMilena.progredir();
+		System.out.println("Conteudos Inscritos Milena" + devMilena.getConteudosInscritos());
+		System.out.println("Conteudos Concluidos Milena" + devMilena.getConteudosConcluidos());
+		System.out.println("XP: " + devMilena.calcularTotalXP());
 	}
 
 }
